@@ -60,7 +60,7 @@ class HomeTabBarCoordinator : NSObject, Coordinator {
         let homeViewModel = HomeViewModel.init()
         //homeViewModel.appCoordinator = self
         
-        homeViewController.viewModel = homeViewModel
+        homeViewController.homeViewModel = homeViewModel
         
         navigationController.pushViewController(homeViewController, animated: true)
     }

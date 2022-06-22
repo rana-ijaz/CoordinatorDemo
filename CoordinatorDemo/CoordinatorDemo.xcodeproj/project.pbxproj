@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B3446228637E1500FFC3DA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3446028637E1500FFC3DA /* CategoryCell.swift */; };
+		A5B3446328637E1500FFC3DA /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B3446128637E1500FFC3DA /* CategoryCell.xib */; };
+		A5B344652863817700FFC3DA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B344642863817700FFC3DA /* Category.swift */; };
+		A5B344692863890200FFC3DA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B344682863890200FFC3DA /* View.swift */; };
+		A5B51506286347D1005AB280 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B51505286347D1005AB280 /* Doctor.swift */; };
+		A5B5150A286349B8005AB280 /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B51508286349B8005AB280 /* DoctorCell.swift */; };
+		A5B5150B286349B8005AB280 /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B51509286349B8005AB280 /* DoctorCell.xib */; };
+		A5B5150D28634B97005AB280 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B5150C28634B97005AB280 /* ImageView.swift */; };
+		A5B5150F28635B26005AB280 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B5150E28635B26005AB280 /* HomeService.swift */; };
+		A5B5151128635D42005AB280 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B5151028635D42005AB280 /* BaseResponse.swift */; };
+		A5B5151328635EE0005AB280 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B5151228635EE0005AB280 /* NetworkError.swift */; };
 		A5CA1A012860A46000C81E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1A002860A46000C81E68 /* AppDelegate.swift */; };
 		A5CA1A082860A46000C81E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA1A062860A46000C81E68 /* Main.storyboard */; };
 		A5CA1A0A2860A46400C81E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CA1A092860A46400C81E68 /* Assets.xcassets */; };
@@ -22,6 +33,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5B3446028637E1500FFC3DA /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		A5B3446128637E1500FFC3DA /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		A5B344642863817700FFC3DA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A5B344682863890200FFC3DA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A5B51505286347D1005AB280 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		A5B51508286349B8005AB280 /* DoctorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
+		A5B51509286349B8005AB280 /* DoctorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
+		A5B5150C28634B97005AB280 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		A5B5150E28635B26005AB280 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		A5B5151028635D42005AB280 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		A5B5151228635EE0005AB280 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A5CA19FD2860A46000C81E68 /* CoordinatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA1A002860A46000C81E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA1A072860A46000C81E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5B5150428634792005AB280 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5B51505286347D1005AB280 /* Doctor.swift */,
+				A5B344642863817700FFC3DA /* Category.swift */,
+				A5B5151028635D42005AB280 /* BaseResponse.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		A5B5150728634973005AB280 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5B51508286349B8005AB280 /* DoctorCell.swift */,
+				A5B51509286349B8005AB280 /* DoctorCell.xib */,
+				A5B3446028637E1500FFC3DA /* CategoryCell.swift */,
+				A5B3446128637E1500FFC3DA /* CategoryCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A5CA19F42860A46000C81E68 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +121,7 @@
 				A5CA1A1C2860A67C00C81E68 /* Models */,
 				A5CA1A1B2860A67300C81E68 /* Constants */,
 				A5CA1A1E2860A6A400C81E68 /* Extensions */,
-				A5CA1A1D2860A68500C81E68 /* Repositories */,
+				A5CA1A1D2860A68500C81E68 /* Services */,
 				A5CA1A1F2860A6AC00C81E68 /* Networking */,
 			);
 			path = CoordinatorDemo;
@@ -145,20 +188,24 @@
 		A5CA1A1C2860A67C00C81E68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A5B5150428634792005AB280 /* DataModels */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		A5CA1A1D2860A68500C81E68 /* Repositories */ = {
+		A5CA1A1D2860A68500C81E68 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A5B5150E28635B26005AB280 /* HomeService.swift */,
 			);
-			path = Repositories;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A5CA1A1E2860A6A400C81E68 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A5B5150C28634B97005AB280 /* ImageView.swift */,
+				A5B344682863890200FFC3DA /* View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -166,6 +213,7 @@
 		A5CA1A1F2860A6AC00C81E68 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				A5B5151228635EE0005AB280 /* NetworkError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -185,6 +233,7 @@
 				A5CA1A2E2860B4CC00C81E68 /* Coordinators */,
 				A5CA1A322860B4CC00C81E68 /* ViewControllers */,
 				A5CA1A302860B4CC00C81E68 /* ViewModels */,
+				A5B5150728634973005AB280 /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -271,8 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B3446328637E1500FFC3DA /* CategoryCell.xib in Resources */,
 				A5CA1A0D2860A46400C81E68 /* LaunchScreen.storyboard in Resources */,
 				A5CA1A0A2860A46400C81E68 /* Assets.xcassets in Resources */,
+				A5B5150B286349B8005AB280 /* DoctorCell.xib in Resources */,
 				A5CA1A082860A46000C81E68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,13 +335,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B5150D28634B97005AB280 /* ImageView.swift in Sources */,
 				A5F1A96C2861C84C00CB9023 /* HomeTabBarCoordinator.swift in Sources */,
 				A5CA1A212860A7E100C81E68 /* AppCoordinator.swift in Sources */,
+				A5B5150A286349B8005AB280 /* DoctorCell.swift in Sources */,
 				A5CA1A232860A83E00C81E68 /* Coordinator.swift in Sources */,
 				A5CA1A362860B4CC00C81E68 /* HomeViewModel.swift in Sources */,
 				A5CA1A372860B4CC00C81E68 /* HomeViewController.swift in Sources */,
 				A5CA1A272860A8E200C81E68 /* TabBarController.swift in Sources */,
+				A5B5150F28635B26005AB280 /* HomeService.swift in Sources */,
+				A5B5151328635EE0005AB280 /* NetworkError.swift in Sources */,
+				A5B51506286347D1005AB280 /* Doctor.swift in Sources */,
+				A5B344652863817700FFC3DA /* Category.swift in Sources */,
+				A5B3446228637E1500FFC3DA /* CategoryCell.swift in Sources */,
 				A5CA1A012860A46000C81E68 /* AppDelegate.swift in Sources */,
+				A5B344692863890200FFC3DA /* View.swift in Sources */,
+				A5B5151128635D42005AB280 /* BaseResponse.swift in Sources */,
 				A5CA1A2A2860AAC000C81E68 /* NavigationController.swift in Sources */,
 				A5CA1A352860B4CC00C81E68 /* HomeCoordinator.swift in Sources */,
 			);
